@@ -2,7 +2,8 @@
 .card-container {
     width: 900px; 
     border: 1px solid #e7dede;
-    background-color: rgb(244, 242, 242);
+    background-color: rgb(134, 153, 155);
+    color: rgb(24, 23, 23);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -49,5 +50,42 @@
   }
   .content-card ul{
     list-style: none;
+  }
+  @media (max-width: 768px) {
+      flex-direction: column; /* Cambiar a disposición en columna para pantallas pequeñas */
+      width:auto;
+      .button-volver {
+        border: 1px solid rgb(150, 146, 146);
+        border-radius: 3px;
+        margin: 1px 1px 1px 2px;
+        background-color: rgb(44, 91, 246);
+        color: white;
+        width: 45px;
+        text-align: center;
+        margin-bottom: 5px;
+        order: 2;
+        line-height: 25px; /* Ajusta esta altura según el tamaño del botón */
+        padding: 0 10px; /* Ajusta el padding según sea necesario */
+    }
+    .button-volver:hover {
+      background-color: blue;
+    }
+      
+      .detail-card-image {
+        border: 1px solid rgb(210, 208, 208);
+        border-radius: 8px;
+        margin-left: 150px;
+          order: 1; /* Cambiar el orden de visualización */
+          margin-bottom: 10px; /* Espacio entre la imagen y los detalles */
+          margin-top: 15px;
+          width: 280px;
+      }
+
+      .content-card {
+       
+        margin-left: 35px;
+          width: auto;
+          order: 3; /* Cambiar el orden de visualización */
+      }
   }
 }

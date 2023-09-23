@@ -1,0 +1,9 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    /* background-image: url("https://www.cinemascomics.com/wp-content/uploads/2022/04/marvel-studios-wallpaper-movies.jpg"); */
+    background: rgb(0,33,36);
+background: linear-gradient(90deg, rgba(0,33,36,0.7343312324929971) 0%, rgba(199,103,103,1) 16%, rgba(199,103,103,0.39539565826330536) 21%, rgba(199,103,103,0.39539565826330536) 49%);
+  }
+  
+ 
