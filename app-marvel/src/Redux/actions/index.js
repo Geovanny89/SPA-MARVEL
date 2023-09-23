@@ -25,7 +25,7 @@ export function showCharacterDetail(characterId) {
         payload: comicDetails,
       });
     } catch (error) {
-      console.error('Error fetching comic details:', error);
+        console.error('Error comic details:', error);
     }
   };
 }

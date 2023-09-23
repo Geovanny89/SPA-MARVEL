@@ -52,7 +52,7 @@
     list-style: none;
   }
   @media (max-width: 768px) {
-      flex-direction: column; /* Cambiar a disposición en columna para pantallas pequeñas */
+      flex-direction: column; 
       width:auto;
       .button-volver {
         border: 1px solid rgb(150, 146, 146);
@@ -64,8 +64,8 @@
         text-align: center;
         margin-bottom: 5px;
         order: 2;
-        line-height: 25px; /* Ajusta esta altura según el tamaño del botón */
-        padding: 0 10px; /* Ajusta el padding según sea necesario */
+        line-height: 25px; 
+        padding: 0 10px; 
     }
     .button-volver:hover {
       background-color: blue;

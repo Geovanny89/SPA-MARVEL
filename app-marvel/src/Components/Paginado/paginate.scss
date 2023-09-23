@@ -21,7 +21,7 @@
     border-radius: 10px;
     background-color: rgb(245, 245, 246);
 }
-/* Estilos para pantallas mayores a 768px de ancho */
+
 @media screen and (min-width: 768px) {
     .columna {
       width: 50%;
@@ -29,7 +29,7 @@
     }
   }
   
-  /* Estilos para pantallas menores o iguales a 768px de ancho */
+ 
   @media screen and (max-width: 768px) {
     .columna {
       width: 100%;
