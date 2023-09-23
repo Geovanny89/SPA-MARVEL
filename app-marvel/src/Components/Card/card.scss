@@ -1,0 +1,31 @@
+.CardMarvel {
+    width: 350px;
+    margin-top: 40px;
+    transition: transform 0.3s;
+    border: 1px solid rgba(0, 0, 0, 0.149);
+    
+    color: rgb(43, 43, 43);
+    &:hover {
+      transform: scale(1.1);
+    }
+  
+    .card-image {
+      img {
+        width: 100%;
+        height: 160px;
+        
+      }
+    }
+  
+    .card-content {
+      .character-name {
+        font-size: 1.2rem;
+      }
+    }
+    .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+  }
+  }
+  
